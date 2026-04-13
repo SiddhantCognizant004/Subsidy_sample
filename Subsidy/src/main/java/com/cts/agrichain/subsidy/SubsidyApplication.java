@@ -1,0 +1,14 @@
+package com.cts.agrichain.subsidy;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients
+public class SubsidyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SubsidyApplication.class, args);
+	}
+}
